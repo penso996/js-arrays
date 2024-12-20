@@ -34,8 +34,8 @@ teachers.push("Vanessa");
 console.log("L'ultimo indice nell'array ora dovrebbe essere Vanessa: " + teachers[teachers.length - 1]);
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
-teachers.unshift("Sara");
-console.log("Il primo indice nell'array ora dovrebbe essere Sara: " + teachers[0]);
+teachers.unshift("Sarah");
+console.log("Il primo indice nell'array ora dovrebbe essere Sarah: " + teachers[0]);
 
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
