@@ -11,7 +11,7 @@ const teachers = [
 // 1. Utilizzando un indice sull'array teachers, cambia il valore della
 // variabile fourthTeacher qui sotto in modo che sia il quarto insegnante elencato nell'array
 const fourthTeacher = teachers[3];
-console.log("La costante fourthTeacher dovrebbe essere Phil: "+ fourthTeacher);
+console.log("La costante fourthTeacher dovrebbe essere Phil: " + fourthTeacher);
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
 teachers[4] = "Patrick";
