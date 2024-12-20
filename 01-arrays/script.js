@@ -26,7 +26,7 @@ console.log("La costante lastTeacher dovrebbe essere Luca: " + lastTeacher);
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
 const firstTeacher = teachers.shift();
 console.log("La costante firstTeacher dovrebbe essere Nathan: " + firstTeacher);
-  //Verifica che il primo elemento dell'array non sia più 'Nathan' ma 'Ed'
+  // Verifica che il primo elemento dell'array non sia più 'Nathan' ma 'Ed'
   console.log("Il primo indice nell'array ora dovrebbe essere Ed: " + teachers[0]);
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
