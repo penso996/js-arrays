@@ -21,21 +21,21 @@ console.log("Il quinto indice nell'array ora dovrebbe essere Patrick: " + teache
 const lastTeacher = teachers.pop();
 console.log("La costante lastTeacher dovrebbe essere Luca: " + lastTeacher);
   // Verifica che l'ultimo elemento dell'array non sia più 'Luca' ma 'Lewis'
-  console.log("L'ultimo indice dell'array ora dovrebbe essere Lewis: " + teachers[teachers.length - 1]);
+  console.log("L'ultimo indice nell'array ora dovrebbe essere Lewis: " + teachers[teachers.length - 1]);
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
 const firstTeacher = teachers.shift();
 console.log("La costante firstTeacher dovrebbe essere Nathan: " + firstTeacher);
   //Verifica che il primo elemento dell'array non sia più 'Nathan' ma 'Ed'
-  console.log("Il primo indice dell'array ora dovrebbe essere Ed: " + teachers[0]);
+  console.log("Il primo indice nell'array ora dovrebbe essere Ed: " + teachers[0]);
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
 teachers.push("Vanessa");
-console.log("L'ultimo indice dell'array ora dovrebbe essere Vanessa: " + teachers[teachers.length - 1]);
+console.log("L'ultimo indice nell'array ora dovrebbe essere Vanessa: " + teachers[teachers.length - 1]);
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
 teachers.unshift("Sara");
-console.log("Il primo indice dell'array ora dovrebbe essere Sara: " + teachers[0]);
+console.log("Il primo indice nell'array ora dovrebbe essere Sara: " + teachers[0]);
 
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
